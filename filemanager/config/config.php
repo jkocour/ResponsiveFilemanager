@@ -19,11 +19,11 @@ mb_internal_encoding('UTF-8');
 //    |   |   |   |- responsivefilemanager
 //    |   |   |   |   |- plugin.min.js
 
-$base_url="http://www.site.com";  // base url (only domain) of site (without final /). If you prefer relative urls leave empty
-$upload_dir = '/source/'; // path from base_url to base of upload folder (with start and final /)
-$current_path = '../source/'; // relative path from filemanager folder to upload folder (with final /)
+$base_url="";  // base url (only domain) of site (without final /). If you prefer relative urls leave empty
+$upload_dir = '/userfiles/'; // path from base_url to base of upload folder (with start and final /)
+$current_path = '../../../../userfiles/'; // relative path from filemanager folder to upload folder (with final /)
 //thumbs folder can't put inside upload folder
-$thumbs_base_path = '../thumbs/'; // relative path from filemanager folder to thumbs folder (with final /)
+$thumbs_base_path = '../../../../public/temp/thumbs/'; // relative path from filemanager folder to thumbs folder (with final /)
 
 //------------------------------------------------------------------------------
 // YOU CAN COPY AND CHANGE THESE VARIABLES IN FOLDERS config.php FILES
@@ -99,7 +99,7 @@ $aviary_active=true;
 $aviary_key="dvh8qudbp6yx2bnp";
 $aviary_secret="m6xaym5q42rpw433";
 $aviary_version=3;
-$aviary_language='en';
+$aviary_language='cs';
 
 
 //The filter and sorter are managed through both javascript and php scripts because if you have a lot of

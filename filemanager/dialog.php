@@ -208,7 +208,7 @@ $get_params = http_build_query(array(
 	    var featherEditor = new Aviary.Feather({
 		apiKey: "<?php echo $aviary_key; ?>",
 		apiVersion: <?php echo $aviary_version; ?>,
-		language: "<?php echo $aviary_language; ?>",
+		language: "<?php echo $lang; ?>",
 	       theme: 'light',
 	       tools: 'all',
 	       onSave: function(imageID, newURL) {

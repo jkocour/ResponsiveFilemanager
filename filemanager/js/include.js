@@ -46,7 +46,7 @@ $(document).ready(function(){
 			case "edit_img":
 			    var filename=$trigger.attr('data-name');
 			    var full_path=$('#base_url_true').val()+$('#cur_dir').val()+filename;
-			    $('#aviary_img').attr('data-name',filename);
+				$('#aviary_img').attr('data-name',filename);
 			    $('#aviary_img').attr('src',full_path).load(launchEditor('aviary_img', full_path));
 			    
 			    break;
@@ -744,7 +744,6 @@ function hide_animation()
 function launchEditor(id, src) {
     featherEditor.launch({
 	image: id,
-	url: src,
     });
    return false;
 }

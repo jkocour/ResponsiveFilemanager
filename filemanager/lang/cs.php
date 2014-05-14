@@ -28,7 +28,7 @@ define('lang_View','Zobrazení');
 define('lang_View_list','Seznam souborů');
 define('lang_View_columns_list','Dvousloucpvý seznam souborů');
 define('lang_View_boxes','Dlaždicové zobrazení');
-define('lang_Toolbar','Toolbar');
+define('lang_Toolbar','Panel nástrojů');
 define('lang_Actions','Akce');
 define('lang_Rename_existing_file','Tento soubor již existuje');
 define('lang_Rename_existing_folder','Tato složka již existuje');
@@ -50,9 +50,28 @@ define('lang_Date_type','d.m.Y');
 define('lang_OK','OK');
 define('lang_Cancel','Zrušit');
 define('lang_Sorting','řazení');
-define('lang_Show_url','zobrazit URL');
-define('lang_Extract','rozbalit zde');
-define('lang_File_info','informace');
-define('lang_Edit_image','upravit obrázek');
-define('lang_Duplicate','Kopírovat');
+define('lang_Show_url','Zobrazit URL adresu');
+define('lang_Extract','Rozbalit zde');
+define('lang_File_info','Informace o souboru');
+define('lang_Edit_image','Upravit obrázek');
+define('lang_Duplicate','Duplikovat');
+define('lang_Folders', 'Složky');
+define('lang_Copy','Kopírovat');
+define('lang_Cut','Vyjmout');
+define('lang_Paste','Vložit');
+define('lang_CB', 'CB'); // clipboard
+define('lang_Paste_Here','Vložit zde');
+define('lang_Paste_Confirm','Are you sure you want to paste to this directory? This will overwrite existing files/folders if encountered any.');
+define('lang_Paste_Failed','Failed to paste file(s)');
+define('lang_Clear_Clipboard','Clear clipboard');
+define('lang_Clear_Clipboard_Confirm','Are you sure you want to clear the clipboard?');
+define('lang_Files_ON_Clipboard','There are files on the clipboard.');
+define('lang_Copy_Cut_Size_Limit','The selected files/folders are too big to %s. Limit: %d MB/operation'); // %s = cut or copy
+define('lang_Copy_Cut_Count_Limit','You selected too many files/folders to %s. Limit: %d files/operation'); // %s = cut or copy
+define('lang_Copy_Cut_Not_Allowed','You are not allowed to %s files.'); // %s(1) = cut or copy, %s(2) = files or folders
+define('lang_Aviary_No_Save', 'Could not save image');
+define('lang_Zip_No_Extract', 'Could not extract. File might be corrupt.');
+define('lang_Zip_Invalid', 'This extension is not supported. Valid: zip, gz, tar.');
+define('lang_Dir_No_Write', 'The directory you selected is not writable.');
+define('lang_Function_Disabled', 'The %s function has been disabled by the server.'); // %s = cut or copy
 ?>

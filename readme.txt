@@ -13,22 +13,27 @@ Creator : info@albertoperipolli.com - tr1pp0
 *********************************************************
 ! Localization
 *********************************************************
+- AZE [Elshad Agayev]
 - BGR [Stanislav Panev]
 - BRA [paulomanrique]
 - CZE [jlusticky]
+- CHI [Richard Yang]
 - ENG
 - ESP [Roberto Santamaria] 
 - FRA [Mathieu Ducharme]
 - GER [Oliver Beta]
 - HUN [Novak Szabolcs]
+- IND [urayogi]
 - ITA
+- MON [Tumenzul Batjargal]
 - NLD [Martijn van der Made]
 - NOR [Pål Schroeder]
-- Persian []
+- Persian [web2web esf ir]
 - POL [Michell Hoduń]
 - POR [Sérgio Lima]
 - RUS [vasromand] 
 - SLO [Roman Šovčík]
+- SWE [Jon Sten]
 - TUR [Ahmed Faruk Bora]
 - UKR [Sergey]
 

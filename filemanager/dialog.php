@@ -416,14 +416,14 @@ foreach($files as $k=>$file){
     if($file==".") $current_folder=array('file'=>$file);
     elseif($file=="..") $prev_folder=array('file'=>$file);
     elseif(is_dir($current_path.$rfm_subfolder.$subdir.$file)){
-	$date=filemtime($current_path.$rfm_subfolder.$subdir. $file);
-	$size=foldersize($current_path.$rfm_subfolder.$subdir. $file);
+	$date= $sort_by === 'date' ? filemtime($current_path.$rfm_subfolder.$subdir. $file) : 0;
+	$size= $sort_by === 'size' ? foldersize($current_path.$rfm_subfolder.$subdir. $file) : 0;
 	$file_ext=lang_Type_dir;
 	$sorted[$k]=array('file'=>$file,'date'=>$date,'size'=>$size,'extension'=>$file_ext);
     }else{
 	$file_path=$current_path.$rfm_subfolder.$subdir.$file;
-	$date=filemtime($file_path);
-	$size=filesize($file_path);
+	$date= $sort_by === 'date' ? filemtime($file_path) : 0;
+	$size=$sort_by === 'size' ? filesize($file_path) : 0;
 	$file_ext = substr(strrchr($file,'.'),1);
 	$sorted[$k]=array('file'=>$file,'date'=>$date,'size'=>$size,'extension'=>$file_ext);
     }

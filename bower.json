@@ -1,3 +1,9 @@
 {
-	"name": "ResponsiveFilemanager"
+	"name": "ResponsiveFilemanager",
+  	"version": "9.14.0",
+  	"author": {
+    		"name": "Alberto Peripolli",
+    		"email": "info@albertoperipolli.com"
+  	},
+  	"license": "CC-BY-NC-3.0",
 }
